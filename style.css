@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.cabecalho {
+    background-color: #b275f8;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.lista-menu {
+    display: flex;
+    gap: 40px;
+    margin-right: 30px;    
+}
+
+li {
+    list-style: none;
+}
+
+.lista-menu li > a {
+    color:#FFFFFF;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.perfil {
+    background-color: #EDEAEA;
+    height: 500px;
+    text-align: center;
+}
+
+h1 {
+    color: #8837e4;
+    font-size: 36px;
+}
+
+.profissao {
+    color: #6d6c6c;
+    font-size: 20px;
+}
+
+.descricao {
+    width: 594px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+img {
+    margin-top: 48px;
+    margin-bottom: 26px;
+    height: 200px;
+    right: 200px;
+}
+
+.container {
+    margin-top: 76px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 650px;
+}
+
+.artigo-formacao {
+    margin-bottom: 50px;
+}
+
+.titulo-formacao {
+    color: #a75efa;
+    font-size: 24ps;
+    margin-bottom: 30px;
+}
+
+.titulo-item {
+    padding-left: 32px;
+    color: #5c5b5b;
+    margin-bottom: 5px;
+}
+
+.link-item {
+    padding-left: 32px;
+    font-size: 15px;
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+.descricao-item {
+    padding-left: 32px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.artigo-projetos {
+    margin-bottom: 50px;
+}
+
+.titulo-projetos {
+    color: #a75efa;
+    font-size: 24ps;
+    margin-bottom: 30px;
+}
+
+.titulo-item {
+    padding-left: 32px;
+    color: #5c5b5b;
+    margin-bottom: 5px;
+}
+
+.nome-item {
+    padding-left: 32px;
+    color: #6b2851;
+    margin-bottom: 5px;
+}
+
+.link-item {
+    padding-left: 32px;
+    font-size: 15px;
+    color: #2F80ED;
+    text-decoration: none;
+}
+
+.descricao-item {
+    padding-left: 32px;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.rodape {
+    background-color: #b275f8;
+    color: #FFFFFF;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.lista-rodape {
+    gap: 40px;
+    margin-left: 30px;    
+}
+
+li {
+    list-style: none;
+}
+
+.lista-rodape li > a {
+    color:#FFFFFF;
+    font-size: 18px;
+    text-decoration: none;
+}
